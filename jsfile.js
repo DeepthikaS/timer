@@ -1,5 +1,5 @@
 //Get Date First
-const countDown = new Date("June 3, 2021 10:00:00").getTime();
+const countDown = new Date("June 03, 2021 10:00:00").getTime();
 // console.log(countDown);
 
 //Set Interval Time To Time
