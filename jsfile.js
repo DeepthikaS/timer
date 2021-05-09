@@ -1,12 +1,5 @@
-var date=new Date();
-var month=date.getMonth()+1;
-const displayTime=setInterval(()=>{
-    document.getElementById("footer").textContent=date.getDate()+"/"+month+"/"+date.getFullYear()+"    "+date.getHours()+":"+date.getMinutes()+":"+date.getSeconds();
-},1000);
-
-
 //Get Date First
-const countDown = new Date("Aug 15, 2021 16:55:25").getTime();
+const countDown = new Date("June 3, 2021 10:00:00").getTime();
 // console.log(countDown);
 
 //Set Interval Time To Time
